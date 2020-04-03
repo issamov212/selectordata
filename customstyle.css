@@ -4,6 +4,7 @@
 }
 a{
 text-decoration: none !important;
+border: none !important;
 }
 .min-strength-warning{
 	background-color: #ffeeee;
@@ -12,6 +13,7 @@ text-decoration: none !important;
 }
 .txt-deco-none {
   text-decoration: none !important;
+	
 }
 .selector-title{
   font-family: 'Tajawal',sans-serif;

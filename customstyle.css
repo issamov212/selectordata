@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal');
+.back-icon {
+  height: 22px;
+}
+
+.min-strength-warning{
+	background-color: #ffeeee;
+	padding: 10px;
+	font-size: 0.9em;
+}
+.txt-deco-none {
+  text-decoration: none !important;
+}
+.selector-title{
+  font-family: 'Tajawal',sans-serif;
+  text-align: right;
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 20px;
+  color: #fff;
+  direction: rtl;
+}
+img.program-img{
+  height: 200px;
+  width: 200px;
+  float: right;
+  border-radius: 12px;
+}
+h3.program-title {
+  font-family: 'Tajawal',sans-serif;
+  text-align: right;
+  margin-right: 35%;
+  margin-top: 12px;
+  color: #eabdc0;
+  font-size: 16px;
+}
+p.program-text{
+  font-family: 'Tajawal',sans-serif;
+  text-align: right;
+  padding-right: 40%;
+  padding-left: 8%;
+  margin-top: 16px;
+  color: #cbd5e0;
+  font-size: 14px;
+}
+.question-container{
+  font-family: 'Tajawal',sans-serif;
+  text-align: right;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 1%;
+  margin-right: 22px;
+  color: #fff;
+  direction: rtl;
+}
+a.backlink{
+  position: absolute;
+  color: #eabdc0;
+  font-family: 'Tajawal',sans-serif;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+}
+.list-circle{
+  width: 14px;
+  margin-left: 6px;
+  transform: translateY(3px);
+}
+li.choices-list {
+  text-align:right;
+  list-style: none;
+  direction: rtl;
+  margin-top: 8px;
+  font-size: 16px;
+	font-family: 'Tajawal',sans-serif;
+	color: #cbd5e0!important;
+  margin-right: 5%;
+  font-weight: 600;
+}
+a.choice-link{
+	color: #cbd5e0!important;
+  font-weight: 600;
+	text-decoration: none;
+}
+div.container {
+  background-image: linear-gradient(to top, rgba(14, 1, 11, 0.7) 0%, rgba(13, 1, 17, 0.67) 100%), url(https://issamov212.github.io/selectordata/bg.jpg);
+  background-size: cover;
+  -webkit-box-shadow: 0px 0px 38px 16px rgba(0,0,0,0.35);
+  -moz-box-shadow: 0px 0px 38px 16px rgba(0,0,0,0.35);
+  box-shadow: 0px 0px 38px 16px rgba(0,0,0,0.35);
+  width: 40%;
+  margin-left: 30%;
+  border-radius: 22px !important;
+  padding: 30px 20px 6px 12px;
+  min-height: 350px;
+  margin-top: 10%;
+}
+
+@media (max-width: 640px) {
+  div.container {
+    background-image: linear-gradient(to top, rgba(14, 1, 11, 0.7) 0%, rgba(13, 1, 17, 0.67) 100%), url(https://issamov212.github.io/selectordata/bg.jpg);
+    background-size: cover;
+    -webkit-box-shadow: 0px 0px 38px 16px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 0px 38px 16px rgba(0,0,0,0.35);
+    box-shadow: 0px 0px 38px 16px rgba(0,0,0,0.35);
+    width: 80%;
+    margin-left: 9%;
+    border-radius: 22px !important;
+    padding: 0px 20px 6px 12px;
+    min-height: 350px;
+    margin-top: 10%;
+  }
+  img.program-img{
+    height: auto;
+    margin-right: 12.5%;
+    width: 75%;
+    border-radius: 12px;
+  }
+  h3.program-title {
+    font-family: 'Tajawal',sans-serif;
+    text-align: right;
+    width: 100%;
+    display: inline-block;
+    margin-right: 5%;
+    margin-top: 12px;
+    color: #eabdc0;
+    font-size: 16px;
+  }
+  p.program-text{
+    font-family: 'Tajawal',sans-serif;
+    text-align: right;
+    color: #cbd5e0;
+    padding-right: 0;
+    margin-top: 0;
+    font-size: 14px;
+
+  }
+}

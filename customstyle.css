@@ -6,6 +6,10 @@ a{
 text-decoration: none !important;
 border: none !important;
 }
+a::after{
+	text-decoration: none !important;
+border: none !important;
+}
 .min-strength-warning{
 	background-color: #ffeeee;
 	padding: 10px;
@@ -41,7 +45,7 @@ h3.program-title {
 p.program-text{
   font-family: 'Tajawal',sans-serif;
   text-align: right;
-  padding-right: 40%;
+  padding-right: 36%;
   padding-left: 8%;
   margin-top: 16px;
   color: #cbd5e0;

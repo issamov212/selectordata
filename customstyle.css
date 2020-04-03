@@ -2,7 +2,9 @@
 .back-icon {
   height: 22px;
 }
-
+a{
+text-decoration: none !important;
+}
 .min-strength-warning{
 	background-color: #ffeeee;
 	padding: 10px;
@@ -68,7 +70,7 @@ a.backlink{
 }
 li.choices-list {
   text-align:right;
-  list-style: none;
+  list-style: none !important;
   direction: rtl;
   margin-top: 8px;
   font-size: 16px;

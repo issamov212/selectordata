@@ -63,7 +63,7 @@ p.program-text{
 }
 a.backlink{
   position: absolute;
-  color: #eabdc0;
+  color: #eabdc0 !important;
   font-family: 'Tajawal',sans-serif;
   text-decoration: none;
   font-size: 18px;

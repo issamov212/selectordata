@@ -63,7 +63,7 @@ function displayQuestion(routeString){
 		var outputHTML='', loopEnd = currentNode.choices.length;
 
 		for(i in currentNode.choices){
-			outputHTML += '<li class="choices-list"><img class="list-circle" src="circle.png"> <a class="choice-link" href="#'+routeString+i+'">'+currentNode.choices[i]+'</a></li>';
+			outputHTML += '<li class="choices-list"><img class="list-circle" src="https://issamov212.github.io/selectordata/circle.png"> <a class="choice-link" href="#'+routeString+i+'">'+currentNode.choices[i]+'</a></li>';
 		}
 		$('.choice-container').html(outputHTML);
 	}

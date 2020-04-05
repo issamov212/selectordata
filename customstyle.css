@@ -8,6 +8,9 @@
 .quotes-slider__text p, .quotes-slider__text cite {
 direction: rtl !important;
 }
+.btn--secondary {
+border: !px solid #eabdc0 !important;
+}
 .h4 {
 text-align:right!important;
 }

@@ -8,6 +8,9 @@
 .quotes-slider__text p, .quotes-slider__text cite {
 direction: rtl !important;
 }
+.h4 {
+text-align:right!important;
+}
 .stars{
 display: inline-block !important;
 }

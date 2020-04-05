@@ -3,6 +3,7 @@
   height: 22px;
 }
 .whiteheader{
+	box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04) !important;
 background: #fff !important;
 }
 .fixedheader {

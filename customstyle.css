@@ -4,7 +4,7 @@
 }
 .fixedheader {
    position: fixed !important;
-    z-index: 1 !important;
+    z-index: 99 !important;
     translate: .5s;
 }
 .transparentback{

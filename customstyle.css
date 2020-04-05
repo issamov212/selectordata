@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Tajawal');
+*{
+direction:rtl;
+}
 .back-icon {
   height: 22px;
 }

@@ -5,6 +5,9 @@
 .mega-subtitle p {
   color: #eabdc0 !important;
 }
+.quotes-slider__text p, .quotes-slider__text cite {
+direction: rtl !important;
+}
 .stars{
 display: inline-block !important;
 }

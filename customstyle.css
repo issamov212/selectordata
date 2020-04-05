@@ -133,8 +133,14 @@ div.container {
   min-height: 500px;
   margin-top: 10%;
 }
-
+div.feature-row__item.feature-row__text.feature-row__text--right{
+text-align:right !important;
+	direction:rtl !important;
+}
 @media (max-width: 640px) {
+	#FeatureRowImageWrapper-feature-row{
+	display:none;
+	}
   div.container {
     background-image: linear-gradient(to top, rgba(14, 1, 11, 0.7) 0%, rgba(13, 1, 17, 0.67) 100%), url(https://issamov212.github.io/selectordata/bg.jpg);
     background-size: cover;

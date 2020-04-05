@@ -2,14 +2,13 @@
 .back-icon {
   height: 22px;
 }
-
 .fixedheader {
    position: fixed !important;
     z-index: 1 !important;
     translate: .5s;
 }
 .transparentback{
-   background: transparent !important;
+   background: rgba(0, 0, 0, .41) !important;
    translate: .5s;
 }
 .whitenoborder{

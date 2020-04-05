@@ -2,6 +2,9 @@
 .back-icon {
   height: 22px;
 }
+.mega-title--large {
+font-weight: bold;
+transform: scaleY(1.3);}
 a{
 text-decoration: none !important;
 border: none !important;

@@ -7,13 +7,14 @@
     z-index: 99 !important;
     translate: .5s;
    width: 100%;
+   background: rgba(0, 0, 0, .2) !important;
 }
 .transparentback{
-   background: rgba(0, 0, 0, .25) !important;
+   background: transparent !important;
    translate: .5s;
 }
 .whitenoborder{
-   color: #fff !important;
+   color: #eabdc0 !important;
    translate: .5s;
    border:none !important;
    translate: .5s;

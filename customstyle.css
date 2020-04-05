@@ -14,7 +14,8 @@
    translate: .5s;
 }
 .whitenoborder{
-   color: #eabdc0 !important;
+   color: #fff !important;
+   font-weight: 600 !important;
    translate: .5s;
    border:none !important;
    translate: .5s;

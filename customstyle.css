@@ -8,7 +8,7 @@
     translate: .5s;
 }
 .transparentback{
-   background: rgba(0, 0, 0, .41) !important;
+   background: rgba(0, 0, 0, .25) !important;
    translate: .5s;
 }
 .whitenoborder{

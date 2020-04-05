@@ -2,6 +2,9 @@
 .back-icon {
   height: 22px;
 }
+.whiteheader{
+background: #fff !important;
+}
 .fixedheader {
    position: fixed !important;
     z-index: 99 !important;

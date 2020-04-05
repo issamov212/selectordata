@@ -2,6 +2,8 @@
 .back-icon {
   height: 22px;
 }
+#shopify-section-1586092288358 > div > div > div.feature-row__item.feature-row__text.feature-row__text--left > h2, #shopify-section-1586092288358 > div > div > div.feature-row__item.feature-row__text.feature-row__text--left > div > p {
+direction: rtl !important;}
 .mega-subtitle p {
   color: #eabdc0 !important;
 }

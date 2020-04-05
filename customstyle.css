@@ -5,6 +5,9 @@
 .mega-subtitle p {
   color: #eabdc0 !important;
 }
+.stars{
+display: inline-block !important;
+}
 .reviewsbg{
 background: url(https://cdn.shopify.com/s/files/1/0144/3106/0068/files/reviews.png) !important;
 background-size: cover;

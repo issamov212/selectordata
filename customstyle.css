@@ -1,4 +1,100 @@
 @import url('https://fonts.googleapis.com/css2?family=Tajawal');
+.flex-row {
+display:flex;
+}
+.pricing-table{
+    border-radius: 16px !important;
+   
+    padding-bottom: 13%;
+}
+h4.basic-plan{
+    color: #eabdc0;
+}
+#vertlist {
+    padding: 0 !important;
+    margin: 0 !important;
+   
+    border-radius: 12px;
+}
+ul.plan-list {
+    margin-top: 10%;
+  list-style: none;
+}
+li.plan-element {
+    text-align: left;
+    color: #1f1345;
+    font-size:16px;
+    text-transform: capitalize !important;
+    margin-top: 22px;
+    margin-left: 8%;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: 'Lato',sans-serif;
+}
+img.pricing-check {
+height: 22px;
+transform:translateY(-3px);
+float: right;
+margin-right: 5%;
+}
+h4.price-text{
+    margin-bottom: 4px !important;
+  font-size: 220%;
+  font-family: 'Lato',sans-serif;
+  font-weight:600;
+  color: #1f1345 !important;
+  text-align: left;
+  margin-left: 6%;
+  margin-top: 22px;
+}
+.price-span{
+  font-size: 12px;
+}
+plan-cta
+.basic-table{
+    border: 1px solid #eabdc0;
+}
+h4.plan-name {
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+text-align: left; 
+
+margin-left: 6%;
+margin-top: 10%;
+    width: 100%;
+   
+    font-family: 'Lato',sans-serif;
+}
+.plan-box {
+    width: 90%;
+    min-height: 380px ;
+    margin-left: 5%;
+    border-radius: 5px;
+box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25) !important;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.plan-box div {
+    padding: 15px;
+    border-bottom: 1px solid #e8e8e8;
+}
+.plan-box div:last-child {
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+
+    border: none;
+    color: #fff;
+
+}
+.plan-box div.plandiv{
+    padding:0 !important;
+}
+
 .span-1-of-3 {
 width:32.6%;
 }

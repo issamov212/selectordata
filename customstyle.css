@@ -2,6 +2,16 @@
 .back-icon {
   height: 22px;
 }
+.home-choices {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
 .home-choice {
 float: right;
 background: #eabdc0;

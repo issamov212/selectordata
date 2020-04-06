@@ -325,7 +325,7 @@
      direction:rtl !important;
 }
  @media (min-width: 640px){
-     .choices-heading{
+     #shopify-section-1586170606231 > div > div > div.custom__item.custom__item--html.custom__item--1586171570188.small--one-half.medium-up--one-half > div{
          margin-top:30%;
     }
 }

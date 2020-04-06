@@ -2,11 +2,12 @@
 .back-icon {
   height: 22px;
 }
+
 .righttext {
 text-align: right !important;}
 #shopify-section-1586092288358 > div > div > div.feature-row__item.feature-row__text.feature-row__text--left > h2{
 color: #eabdc0 !important;}
-#shopify-section-1586092288358 > div > div > div.feature-row__item.feature-row__text.feature-row__text--left > h2, #shopify-section-1586092288358 > div > div > div.feature-row__item.feature-row__text.feature-row__text--left > div > p {
+.choices-headin, #shopify-section-1586092288358 > div > div > div.feature-row__item.feature-row__text.feature-row__text--left > h2, #shopify-section-1586092288358 > div > div > div.feature-row__item.feature-row__text.feature-row__text--left > div > p {
 direction: rtl !important;}
 .mega-subtitle p {
   color: #eabdc0 !important;

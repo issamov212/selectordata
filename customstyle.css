@@ -184,6 +184,11 @@ div.feature-row__item.feature-row__text.feature-row__text--right{
 text-align:right !important;
 	direction:rtl !important;
 }
+@media (min-width: 640px){
+	.custom__item-inner{
+	margin-top:20%;
+	}
+}
 @media (max-width: 640px) {
 	.custom__item.small--one-half{
 	width:100%;

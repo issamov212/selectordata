@@ -20,6 +20,7 @@ background: #eabdc0;
     margin-right: 8px;
 }
 .choices-heading {
+text-align: center !important;
 font-size:1.5em !important;}
 .righttext {
 text-align: right !important;}
@@ -185,6 +186,7 @@ text-align:right !important;
 }
 @media (max-width: 640px) {
 	.choices-heading {
+		text-align: center !important;
 font-size:1.5em !important;}
 	
 	#FeatureRowImageWrapper-feature-row{

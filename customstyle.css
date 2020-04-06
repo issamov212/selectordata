@@ -2,6 +2,49 @@
 .flex-row {
 display:flex;
 }
+.plan-cta:hover{
+    color: #fff;
+}
+.plan-cta {
+    position: relative;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background: #b3d4ff;
+    padding: .8em 2em;
+    border: none;
+    color: #1f1345;
+    font-size:14px;
+    font-weight: bold;
+    font-family: 'Lato',sans-serif;
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+    float: left;
+    margin-left: 6%;
+    transform: translateY(16px);
+    border-radius: 100px;
+  }
+  .plan-cta span {
+    position: relative;
+    pointer-events: none;
+  }
+  .plan-cta::before {
+    --size: 0;
+    content: '';
+    position: absolute;
+    left: var(--x);
+    top: var(--y);
+    width: var(--size);
+    height: var(--size);
+    background: radial-gradient(circle closest-side, #ff5c62, transparent);
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    transition: width .2s ease, height .2s ease;
+  }
+  .plan-cta:hover::before {
+    --size: 400px;
+  }
 .pricing-table{
     border-radius: 16px !important;
    

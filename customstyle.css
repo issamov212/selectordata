@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Tajawal');
+.span-1-of-3 {
+width:32.6%;
+}
 .back-icon {
   height: 22px;
 }
@@ -190,6 +193,9 @@ text-align:right !important;
 	}
 }
 @media (max-width: 640px) {
+	.span-1-of-3 {
+width:32.6%;
+}
 	.custom__item.small--one-half{
 	width:100%;
 	}
@@ -242,4 +248,9 @@ font-size:.9em !important;}
 	.custom__item custom__item--html custom__item--1586171570188 {
 	width:100%;
 	}
+}
+@media (max-width: 480px) {
+	.span-1-of-3 {
+width:100%;
+}
 }

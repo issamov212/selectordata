@@ -2,7 +2,15 @@
 .back-icon {
   height: 22px;
 }
-
+.home-choice {
+float: right;
+background: #eabdc0;
+    padding: 6px 12px;
+    border-radius: 6px;
+    margin-right: 8px;
+}
+.choices-heading {
+font-size:1.5em !important;}
 .righttext {
 text-align: right !important;}
 #shopify-section-1586092288358 > div > div > div.feature-row__item.feature-row__text.feature-row__text--left > h2{
@@ -166,6 +174,9 @@ text-align:right !important;
 	direction:rtl !important;
 }
 @media (max-width: 640px) {
+	.choices-heading {
+font-size:1.5em !important;}
+	
 	#FeatureRowImageWrapper-feature-row{
 	display:none;
 	}

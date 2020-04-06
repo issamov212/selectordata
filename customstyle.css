@@ -328,8 +328,8 @@ padding-top:5px !important;
      direction:rtl !important;
 }
  @media (min-width: 640px){
-     .custom__item-inner{
-         margin-top:20%;
+     .choices-heading{
+         margin-top:30%;
     }
 }
  @media (max-width: 640px) {

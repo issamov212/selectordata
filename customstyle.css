@@ -349,4 +349,7 @@ font-size:.9em !important;}
 	.span-1-of-3 {
 width:100%;
 }
+	.flex-row {
+display:unset;
+}
 }

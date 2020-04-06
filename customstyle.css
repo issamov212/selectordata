@@ -185,9 +185,12 @@ text-align:right !important;
 	direction:rtl !important;
 }
 @media (max-width: 640px) {
+	.custom__item.small--one-half{
+	width:100%;
+	}
 	.choices-heading {
 		text-align: center !important;
-font-size:1.5em !important;}
+font-size:1em !important;}
 	
 	#FeatureRowImageWrapper-feature-row{
 	display:none;

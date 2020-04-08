@@ -2,6 +2,9 @@
  .flex-row {
      display:flex;
 }
+.inner .activity_selector {
+    color: #cbd5e0;
+}
  .plan-cta:hover{
      color: #fff;
 }

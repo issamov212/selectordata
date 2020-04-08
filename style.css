@@ -164,12 +164,15 @@ transform: translateY(30px);
     
 }
 
-
+html{
+overflow-x:hidden;
+}
 
 div.container-1 {
     background-image: linear-gradient(to top, rgba(14, 1, 11, 0.7) 0%, rgba(13, 1, 17, 0.67) 100%), url(https://www.pexels.com/photo/321598/download/?search_query=diet&tracking_id=a31wpnrqamr);
     background-position: bottom;
     background-size: cover;
+   direction:rtl;
     -webkit-box-shadow: 0px 0px 38px 16px rgba(0,0,0,0.35);
     -moz-box-shadow: 0px 0px 38px 16px rgba(0,0,0,0.35);
     box-shadow: 0px 0px 38px 16px rgba(0,0,0,0.35);

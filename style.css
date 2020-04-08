@@ -1,8 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal');
+*{
+   font-family: 'Tajawal', sans-serif !important;
+}
+.fixedheader {
+   position: fixed !important;
+    z-index: 1 !important;
+    translate: .5s;
+}
+.transparentback{
+   background: transparent !important;
+   translate: .5s;
+}
+.whitenoborder{
+   color: #fff !important;
+   translate: .5s;
+   border:none !important;
+   translate: .5s;
+}
+.roseicon {
+   color: #eabdc0 !important;
+   translate: .5s;
+}
+
 .clear {
     clear: both;
 }
-
-
 #main h1 {
     font-family: Lato;
     text-align: center;

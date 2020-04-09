@@ -2,6 +2,19 @@
  .flex-row {
      display:flex;
 }
+#shopify-section-1586361980134 > div > header > h2, #shopify-section-1586408414454 > div > header > h2, #shopify-section-1586408474024 > div > header > h2, #shopify-section-1586408504101 > div > header > h2{
+background: rgba(234,189,192, .8);
+    border: 2px solid rgba(234,189,192, .9);
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    border-bottom-left-radius: 32px;
+    border-top-right-radius: 32px;
+    color: #0a0a0a;
+    font-size: 16px;
+    box-shadow: 0 0 0 4px rgba(234,189,192, .4);
+}
 .inner .activity_selector {
     color: #cbd5e0;
 }

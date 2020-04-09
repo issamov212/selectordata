@@ -6,6 +6,9 @@
 padding-top: 0 !important;
 padding-bottom: 0 !important;
 }
+.hr--invisible {
+margin:0 !important;
+}
 #shopify-section-1586361980134 > div > header > h2, #shopify-section-1586408414454 > div > header > h2, #shopify-section-1586408474024 > div > header > h2, #shopify-section-1586408504101 > div > header > h2{
 background: rgba(234,189,192, .8);
     border: 2px solid rgba(234,189,192, .9);

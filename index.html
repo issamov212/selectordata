@@ -1,0 +1,477 @@
+
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    
+    <title>Calorie Calculator</title>
+        
+    <link rel="stylesheet" href="https://issamov212.github.io/selectordata/style.css">
+    <link rel="stylesheet" href="https://issamov212.github.io/selectordata/customstyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Tajawal" rel="stylesheet" type="text/css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<style>
+   #answer-1300,#answer-1400,#answer-1500,#answer-1600,#answer-1700,#answer-1800,#answer-1900,#answer-2000{
+       display: none;
+   }  
+   .showanswer{
+       display: block !important;
+   }
+
+*{
+    font-family: "Tajawal",sans-serif;
+    direction: rtl;
+    color: #cbd5e0;
+    font-weight: 600;
+}
+.input-choice {
+    color: #cbd5e0!important;
+    font-weight: 600;
+}
+.custom-select {
+    margin-right: 26px;
+    padding-left: 16px;
+    margin-left: 12px;
+    background: rgba(0,0,0,.6);
+    color: #eabdc0;
+    border: none;
+    border-radius: 12px;
+    padding-right: 16px;
+}
+.inputs{
+    margin-right: 6%;
+}
+</style>
+    <div class="container-1" style="padding-right: 2%;">
+
+        <h2 class="selector-title">لنجد البرنامج الغذائي الأنسب إليك :</h2>
+
+        <form id="form01">
+      
+            <div class="inner">
+                
+                <h3 class="question-container textcenter selector-title"><img class="list-circle" src="https://issamov212.github.io/selectordata/circle.png">ادخلي معلوماتك الشخصية</h3>
+                <div class="inputs">
+                    
+                   
+                    <span>السن :</span>
+                    <select name="select" class="custom-select" id="age_select">
+                       
+                    </select> سنة
+                    <br><br>
+                    <span>وزنك الحالي :</span>
+                    <select name="select" class="custom-select" id="weight_select">
+                        
+                    </select> كلغ
+                    <br><br>
+                    <span>طولك الحالي :</span>
+                    <select name="select" class="custom-select" id="height_select">
+                        
+                    </select> سم
+                    <br><br>     
+                    <span>ما هو هذفك من البرنامج ؟</span>
+                    <br><br>     
+                    <label style="color: #eabdc0;"><input type="radio" name="goal" id="maintain" checked>الحفاظ على الوزن</label>
+                    <br><br>     
+                    <label style="color: #eabdc0;"><input type="radio" name="goal" id="mass" checked>زيادة الوزن</label>
+                    <br><br>     
+                    <label style="color: #eabdc0;"><input type="radio" name="goal" id="shred" checked>الخفض من الوزن</label>
+                    <br><br> 
+
+                    <span style="display:none;">I am a</span> 
+                    <label  style="display:none;"><input type="radio" name="gender" id="male"> Male</label>
+                    <label  style="display:none;"><input type="radio" name="gender" id="female" checked> Female</label>
+                    <br><br>               
+                </div>
+            </div>
+        </form>
+        
+        <form id="form02">
+        
+            <div class="inner">
+                <h3 class="question-container textcenter selector-title"><img class="list-circle" src="https://issamov212.github.io/selectordata/circle.png">حددي الإختيار الذي يناسب مستوى نشاطك البدني :</h3>
+                <div class="activity_selector">
+                    <strong>غير نشيط</strong><br>
+                    <small>تمرين قليل او منعدم</small>
+                </div>
+                <div class="activity_selector">
+                    <strong>قليل النشاط</strong><br>
+                    <small>تمرين بسيط / رياضة 1-3 ايام في الأسبوع</small>
+                </div>
+                <div class="activity_selector">
+                    <strong>متوسط النشاط</strong><br>
+                    <small>تمرين عادي / رياضة 3-5 ايام في الأسبوع</small>
+                </div>
+                <div class="activity_selector">
+                    <strong>جد نشيط</strong><br>
+                    <small>تمرين شاق / رياضة 5-7 ايام في الأسبوع</small>
+                </div>
+                <div class="activity_selector" style="display: none;">
+                    <strong>Extra active</strong><br>
+                    <small>Very hard exercise/sports &amp; physical job or 2x training</small>
+                </div>
+            </div>
+        </form>
+        
+        <div id="result_wrapper" >
+  
+            <div id="result">
+                <p>
+                <strong>استنادًا إلى المعلومات التي قدمتها ، تقدر احتياجاتك اليومية بما يلي :  </strong>
+             <span id="score" ></span>
+               
+             </p>
+           
+                <p style="color: #eabdc0;">لتحسين بنيتك الجسمانية و تطوير لياقتك ، نحن ننصحك بإتباع البرنامج اسفله :</p>
+              
+            </div>
+            <div class="answer-col">
+                <div id="answer-1400">
+                    <div class="answer-col">
+                       <div class="img-col"><img class="progra" src="https://cdn.shopify.com/s/files/1/0144/3106/0068/products/ScreenShot2020-04-10at10.00.07PM_1024x1024@2x.png?v=1586545278">
+                           <a href="https://rahaffitness.com/products/%D9%86%D8%B8%D8%A7%D9%85-%D8%BA%D8%B0%D8%A7%D8%A6%D9%89-%D9%85%D8%B1%D9%86-%D9%A1%D9%A4%D9%A0%D9%A0-%D8%B3%D8%B9%D8%B1%D8%A9">
+                               <p class="answer-prog-txt">
+                                   <span  class="prog-span">شراء البرنامج</span>
+                               </p>
+                           </a>
+                       </div>
+                       <div class="txt-col"><h4 class="answer-prog-name">نظام غذائى مرن ١٤٠٠ سعرة</h4>
+                            </div>
+           
+                     </div>
+                </div>    
+                <div id="answer-2000">
+                        <div class="answer-col">
+                           <div class="img-col"><img class="progra" src="https://cdn.shopify.com/s/files/1/0144/3106/0068/products/ScreenShot2020-04-10at11.01.05PM_1024x1024@2x.png?v=1586549089">
+                               <a href="https://rahaffitness.com/products/%D9%86%D8%B8%D8%A7%D9%85-%D8%BA%D8%B0%D8%A7%D8%A6%D9%89-%D9%A2%D9%A0%D9%A0-%D8%B3%D8%B9%D8%B1%D8%A9-%D8%AD%D8%B1%D8%A7%D8%B1%D9%8A%D8%A9">
+                                   <p class="answer-prog-txt">
+                                       <span  class="prog-span">شراء البرنامج</span>
+                                   </p>
+                               </a>
+                           </div>
+                           <div class="txt-col"><h4 class="answer-prog-name">نظام غذائى ٢٠٠٠ سعرة حرارية</h4>
+                         
+                           </div>
+               
+                         </div>
+                </div> 
+                <div id="answer-1600">
+                            <div class="answer-col">
+                               <div class="img-col"><img class="progra" src="https://cdn.shopify.com/s/files/1/0144/3106/0068/products/ScreenShot2020-04-10at3.28.42PM_1024x1024@2x.png?v=1586521754">
+                                   <a href="https://rahaffitness.com/products/%D9%86%D8%B8%D8%A7%D9%85-%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A-%D9%85%D8%B1%D9%86-%D9%A1%D9%A6%D9%A0%D9%A0-%D8%B3%D8%B9%D8%B1%D8%A9-%D8%AD%D8%B1%D8%A7%D8%B1%D9%8A%D8%A9">
+                                       <p class="answer-prog-txt">
+                                           <span  class="prog-span">شراء البرنامج</span>
+                                       </p>
+                                   </a>
+                               </div>
+                               <div class="txt-col"><h4 class="answer-prog-name">نظام غذائي مرن ١٦٠٠ سعرة حرارية</h4>
+                                
+                               </div>
+                   
+                             </div>
+                </div>
+                <div id="answer-1300">
+                                <div class="answer-col">
+                                   <div class="img-col"><img class="progra" src="https://cdn.shopify.com/s/files/1/0144/3106/0068/products/ScreenShot2020-04-10at9.26.32PM_1024x1024@2x.png?v=1586543310">
+                                       <a href="https://rahaffitness.com/products/%D9%86%D8%B8%D8%A7%D9%85-%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A-%D9%85%D8%B1%D9%86-%D9%A1%D9%A3%D9%A0%D9%A0-%D8%B3%D8%B9%D8%B1%D8%A9">
+                                           <p class="answer-prog-txt">
+                                               <span  class="prog-span">شراء البرنامج</span>
+                                           </p>
+                                       </a>
+                                   </div>
+                                   <div class="txt-col"><h4 class="answer-prog-name">نظام غذائي مرن ١٣٠٠ سعرة</h4>
+                            
+                                   </div>
+                       
+                                 </div>
+                </div>
+                <div id="answer-1700">
+                                    <div class="answer-col">
+                                       <div class="img-col"><img class="progra" src="https://cdn.shopify.com/s/files/1/0144/3106/0068/products/ScreenShot2020-04-10at5.53.57PM_1024x1024@2x.png?v=1586532058">
+                                           <a href="https://rahaffitness.com/products/%D9%86%D8%B8%D8%A7%D9%85-%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A-%D9%85%D8%B1%D9%86-%D9%A1%D9%A7%D9%A0%D9%A0-%D8%B3%D8%B9%D8%B1%D8%A9-%D8%AD%D8%B1%D8%A7%D8%B1%D9%8A%D8%A9">
+                                               <p class="answer-prog-txt">
+                                                   <span  class="prog-span">شراء البرنامج</span>
+                                               </p>
+                                           </a>
+                                       </div>
+                                       <div class="txt-col"><h4 class="answer-prog-name">نظام غذائي مرن ١٧٠٠ سعرة حرارية</h4>
+                            
+                                       </div>
+                           
+                                     </div>
+                </div>
+                <div id="answer-1800">
+                                        <div class="answer-col">
+                                           <div class="img-col"><img class="progra" src="https://cdn.shopify.com/s/files/1/0144/3106/0068/products/ScreenShot2020-04-10at6.29.46PM_1024x1024@2x.png?v=1586532761">
+                                               <a href="https://rahaffitness.com/products/%D9%86%D8%B8%D8%A7%D9%85-%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A-%D9%85%D8%B1%D9%86-%D9%A1%D9%A8%D9%A0%D9%A0-%D8%B3%D8%B9%D8%B1%D8%A9-%D8%AD%D8%B1%D8%A7%D8%B1%D9%8A%D8%A9">
+                                                   <p class="answer-prog-txt">
+                                                       <span  class="prog-span">شراء البرنامج</span>
+                                                   </p>
+                                               </a>
+                                           </div>
+                                           <div class="txt-col"><h4 class="answer-prog-name">نظام غذائي مرن ١٨٠٠ سعرة حرارية</h4>
+                                            </div>
+                               
+                                         </div>
+                </div>
+                <div id="answer-1900">
+                                            <div class="answer-col">
+                                               <div class="img-col"><img class="progra" src="https://cdn.shopify.com/s/files/1/0144/3106/0068/products/ScreenShot2020-04-10at10.34.59PM_1024x1024@2x.png?v=1586547407">
+                                                   <a href="https://rahaffitness.com/products/%D9%86%D8%B8%D8%A7%D9%85-%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A-%D9%85%D8%B1%D9%86-%D9%A1%D9%A9%D9%A0%D9%A0-%D8%B3%D8%B9%D8%B1%D8%A9-%D8%AD%D8%B1%D8%A7%D8%B1%D9%8A%D8%A9">
+                                                       <p class="answer-prog-txt">
+                                                           <span  class="prog-span">شراء البرنامج</span>
+                                                       </p>
+                                                   </a>
+                                               </div>
+                                               <div class="txt-col"><h4 class="answer-prog-name">نظام غذائي مرن ١٩٠٠ سعرة حرارية</h4>
+                                                </div>
+                                   
+                                             </div>
+               </div>
+            </div>
+        </div>
+        
+        <button type="button" id="back"><span style="color: #eabdc0;">عودة</span> </button> 
+        <button type="button" id="proceed"><span style="color: #eabdc0;">التالي</span> </button>
+        <button type="button" id="start_over"><span style="color: #eabdc0;">إعادة الإختبار</span></button>
+       
+        <div class="clear"></div>
+       
+    </div>
+    
+    <script>
+        
+           (function () {
+            
+            var i = 0, j = 0, option;
+            
+            
+            /* Populate the first page selectors */
+            for (i = 15; i <= 90; i++) {
+                option = document.createElement("option");
+                option.text = i;
+                option.value = i;
+                document.getElementById("age_select").appendChild(option);
+            }
+            
+            for (i = 45; i <= 170; i++) {
+                option = document.createElement("option");
+                option.text = i;
+                option.value = i;
+                document.getElementById("weight_select").appendChild(option);
+            }
+            
+            for (i = 150; i <= 230; i++) {
+                option = document.createElement("option");
+                option.text = i;
+                option.value = i;
+                document.getElementById("height_select").appendChild(option);
+            }
+            
+         
+            /* Adding necessary event listeners */
+            addListener(document.getElementById("proceed"), 'click', function() {
+                proceed();
+            });
+            addListener(document.getElementById("back"), 'click', function() {
+                back();
+            });
+            addListener(document.getElementById("start_over"), 'click', function() {
+                start_over();
+            });
+            
+            var activity_selectors = document.getElementsByClassName("activity_selector");
+            
+            for(i = 0, j = activity_selectors.length; i < j; i++) {
+                /* Closure function that allows to track which element was clicked */ 
+                (function(index){
+                    addListener(activity_selectors[i], 'click', function() {
+                        activity_select(index);
+                    });
+                })(i);
+            }
+            
+            /* Main app logic */
+            
+            var screen_number = 1;
+            var gender, 
+                age, 
+                weight, 
+                height, 
+                activity_factor,
+                BMR,
+                daily_need;
+            
+            function proceed() {
+                document.getElementById("form01").style.display = "none";
+                document.getElementById("form02").style.display = "block";
+                document.getElementById("proceed").style.display = "none";
+                document.getElementById("back").style.display = "block";
+                screen_number = 2;
+            }
+            function back() {
+                switch(screen_number) {
+                    case 2:
+                        document.getElementById("form01").style.display = "block";
+                        document.getElementById("form02").style.display = "none";
+                        document.getElementById("proceed").style.display = "block";
+                        document.getElementById("back").style.display = "none";
+                        screen_number = 1;
+                    break;
+                        
+                    case 3:
+                        document.getElementById("form02").style.display = "block";
+                        document.getElementById("result_wrapper").style.display = "none";
+                        document.getElementById("start_over").style.display = "none";
+                        screen_number = 2;
+                    break;
+
+                }                
+            }
+            
+            function activity_select(index) {
+                document.getElementById("form02").style.display = "none";
+                document.getElementById("result_wrapper").style.display = "block";
+                document.getElementById("start_over").style.display = "block";
+                screen_number = 3;
+                
+                /* Collecting input values */
+                
+                if(document.getElementById('male').checked) {
+                    gender = 0; // male
+                }else if(document.getElementById('female').checked) {
+                    gender = 1; // female
+                }  
+                if(document.getElementById('maintain').checked) {
+                    goal = 0; // maintain
+                }else if(document.getElementById('mass').checked) {
+                    goal = 1; // mass
+                } 
+                else if(document.getElementById('shred').checked) {
+                    goal = 2; // shred
+                } 
+
+                var selected_age = document.getElementById("age_select");
+                age = selected_age.value;
+                
+                var selected_weight = document.getElementById("weight_select");
+                weight = selected_weight.value;
+                
+                var selected_height = document.getElementById("height_select");
+                height = selected_height.value;
+                
+                switch(index) {
+                    case 0: activity_factor = 1.2;      break;
+                    case 1: activity_factor = 1.375;    break;
+                    case 2: activity_factor = 1.55;     break;
+                    case 3: activity_factor = 1.725;    break;
+                    case 4: activity_factor = 1.9;      break;
+                }
+                
+                if(gender === 0) {
+                    BMR = 66 + ( 13.7 * weight ) + ( 5 * height ) - ( 6.8 * age );
+                } else if (gender === 1) {
+                    BMR = 655 + ( 9.6 * weight ) + ( 1.8 * height ) - ( 4.7 * age );
+                }
+                
+                daily = BMR * activity_factor;
+                if(goal === 0) {
+                   daily_need = daily ;
+                } else if (goal === 1) {
+                    daily_need = daily + 1000;
+                }
+                else if (goal === 2) {
+                    daily_need = daily - 500;
+                }
+
+           
+                document.getElementById("score").innerHTML = Math.round(daily_need) + " سعرة حرارية ";
+                if(daily_need > 1950)
+            {
+                $("#answer-2000").addClass('showanswer');
+            }
+            else if(daily_need > 1850 && daily_need < 1950)
+            {
+                $("#answer-1900").addClass('showanswer');
+            }
+            else if(daily_need > 1750 && daily_need < 1850)
+            {
+                $("#answer-1800").addClass('showanswer');
+            }
+            else if(daily_need > 1650 && daily_need < 1750)
+            {
+                $("#answer-1700").addClass('showanswer');
+            }
+            else if(daily_need > 1550 && daily_need < 1650)
+            {
+                $("#answer-1600").addClass('showanswer');
+            }
+            else if(daily_need > 1450 && daily_need < 1550)
+            {
+                $("#answer-1500").addClass('showanswer');
+            }
+            else if(daily_need > 1350 && daily_need < 1450)
+            {
+                $("#answer-1400").addClass('showanswer');
+            }
+            else if(daily_need > 1250 && daily_need < 1350 )
+            {
+                $("#answer-1300").addClass('showanswer');
+            }
+            }
+            function start_over() {
+                document.getElementById("form01").style.display = "block";
+                document.getElementById("result_wrapper").style.display = "none";
+                document.getElementById("start_over").style.display = "none";
+                document.getElementById("proceed").style.display = "block";
+                document.getElementById("back").style.display = "none";
+                screen_number = 1;
+                
+                /* Reset selected values */
+                document.getElementById("male").checked = true;
+                document.getElementById("age_select").value = "15";
+                document.getElementById("weight_select").value = "45";
+                document.getElementById("height_select").value = "150";
+                $("#answer-1300").removeClass('showanswer');
+                $("#answer-1400").removeClass('showanswer');
+                $("#answer-1500").removeClass('showanswer');
+                $("#answer-1600").removeClass('showanswer');
+                $("#answer-1700").removeClass('showanswer');
+                $("#answer-1800").removeClass('showanswer');
+                $("#answer-1900").removeClass('showanswer');
+                $("#answer-2000").removeClass('showanswer');
+            }
+            
+            /**
+             * Utility to wrap the different behaviors between W3C-compliant browsers
+             * and IE when adding event handlers.
+            **/
+
+            function addListener(element, type, callback) {
+             if (element.addEventListener) element.addEventListener(type, callback);
+             else if (element.attachEvent) element.attachEvent('on' + type, callback);
+            }
+        })();     
+
+    </script>
+   
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  </script>
+  <script src="https://issamov212.github.io/selectordata/persianNum.jquery-2.js"></script>
+  <script>
+    $("#form02 > div > div > small").addClass('arabic');
+    $('#age_select option').addClass('arabic');
+    $('#height_select option').addClass('arabic');
+    $('#weight_select option').addClass('arabic');
+    </script>
+  <script>$(document).ready(function () { $('*').persianNum(); }) </script>
+</body>
+
+</html>

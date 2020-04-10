@@ -2,6 +2,9 @@
  .flex-row {
      display:flex;
 }
+.answer-prog-name {
+color:#eabdc0;
+}
 .answer-col {
 display: flex;width: 100%;
 }

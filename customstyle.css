@@ -6,6 +6,9 @@
 padding-top: 0 !important;
 padding-bottom: 0 !important;
 }
+.selector-cta {
+text-align: right; width: 100%; margin-top: 20px; float: right;
+}
 .distance-training {
 color: #0a0a0a;
     background: #eabdc0;
@@ -371,6 +374,9 @@ border-none:!important;}
     }
 }
  @media (max-width: 640px) {
+  .selector-cta {
+text-align: center; width: 50%; margin-top: 20px; margin-right: 25%; float: right;  
+}
      .span-1-of-3 {
          width:32.6%;
     }

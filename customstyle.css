@@ -6,6 +6,21 @@
 padding-top: 0 !important;
 padding-bottom: 0 !important;
 }
+.distance-training {
+color: #0a0a0a;
+    background: #eabdc0;
+    padding-right: 14px;
+    padding-left: 14px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1);
+ transition:.3s;
+}
+.distance-training::hover{
+ box-shadow: 0 0 0 2px rgba(2, 5, 2, 0.2);
+}
 .hr--invisible {
 margin:0 !important;
 }

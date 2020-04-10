@@ -5,7 +5,7 @@ $(document).ready( function(){
 		displayQuestion(null);
 	};
 	$('.outer-container').css('min-height', $(window).height()-130);
-	$.get('https://issamov212.github.io/selectordata/data.json', null, function(data){
+	$.get('https://issamov212.github.io/selectordata/datafinal.json', null, function(data){
 		qData = data;
 		displayQuestion(null);
 	}, "json");

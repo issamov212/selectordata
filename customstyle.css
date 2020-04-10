@@ -20,7 +20,7 @@ border-radius: 14px;
     box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
 }
 .answer-prog-text {
-text-align:right;cursor: pointer;width: 100%;margin-top: 20px;color: #0a0a0a;
+text-align:right;cursor: pointer;width: 100%;margin-top: 20px;
 }
 .prog-span {
 background: #eabdc0;padding: 6px 12px;font-size: 12px;border-radius: 6px;color: #0a0a0a;text-align: center;

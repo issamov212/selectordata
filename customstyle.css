@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Tajawal');
- .flex-row {
+.answer-prog-txt{
+text-align:right !important;
+} 
+.flex-row {
      display:flex;
 }
 .answer-prog-name {

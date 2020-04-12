@@ -2,6 +2,9 @@
 .answer-prog-txt{
 text-align:center !important;
 } 
+.spr-form-input .spr-starrating {
+float:right;
+}
 .flex-row {
      display:flex;
 }

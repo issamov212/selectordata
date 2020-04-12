@@ -2,6 +2,16 @@
 .answer-prog-txt{
 text-align:center !important;
 } 
+.spr-form {
+border-top: 1px solid rgba(0,0,0,0.1) !important;
+}
+.spr-header-title {
+text-align: center !important;
+}
+.spr-container {
+     background: linear-gradient(332deg, rgba(101,119,232,0.1) 0%, rgba(104,125,249,0.19) 100%);
+     border-radius: 20px;
+}
 #new-review-form_4528109650020 > fieldset.spr-form-review > div.spr-form-review-rating > div {
 float:right;
 }

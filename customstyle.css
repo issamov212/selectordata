@@ -19,6 +19,7 @@ text-align: center !important;
 }
 #new-review-form_4528109650020 > fieldset.spr-form-review > div.spr-form-review-rating > div {
 float:right;
+        background: transparent !important;
 }
 .flex-row {
      display:flex;

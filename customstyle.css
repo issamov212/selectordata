@@ -2,7 +2,7 @@
 .answer-prog-txt{
 text-align:center !important;
 } 
-.spr-form-input .spr-starrating {
+#new-review-form_4528109650020 > fieldset.spr-form-review > div.spr-form-review-rating > div {
 float:right;
 }
 .flex-row {

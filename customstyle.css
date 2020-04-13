@@ -10,6 +10,9 @@ border-color:rgba(0,0,0,0.1)!important;
     border-radius: 20px !important;
     background: #fff !important;
 }
+h2, .h2 {
+letter-spacing:0 !important;
+}
 .spr-form {
 border-top: 1px solid rgba(0,0,0,0.1) !important;
 }

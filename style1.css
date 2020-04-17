@@ -531,5 +531,76 @@ text-align: center; width: 50%; margin-top: 20px; margin-right: 25%; float: righ
          display:unset;
     }
 }
+div.category-div {
+width: 50%;
+margin: 0 !important;
+height: 300px;
+float: left;
+}
+div.row-section {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.accessory{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.83) 0%, rgba(0, 34, 54, 0.76) 25%, rgb(4, 49, 84) 100%), url(https://issamov212.github.io/selectordata/accessory.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.jewels{
+  background-image: linear-gradient(rgba(7, 1, 51, 0.7) 0%, rgba(17, 0, 37, 0.7) 25%, rgba(97, 0, 67, 0.89) 100%), url(https://issamov212.github.io/selectordata/jewels.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.category-sec-title {
+  margin-top: 8%;
+font-family: 'Tajawal',sans-serif;
+text-align: center;
+color: #fff;
+font-size: 2em;
+}
+.category-cta {
+  -webkit-font-smoothing: antialiased;
+line-height: 1.5;
+font-family: 'Tajawal', sans-serif !important;
+box-sizing: border-box;
+text-decoration: none !important;
+border: none !important;
+touch-action: manipulation;
+user-select: none;
+-webkit-appearance: none;
+display: inline-block;
+width: auto;
+text-align: center;
+cursor: pointer;
+border-radius: 2px;
+background-color:#f3c8d2;
+color: #0a0a0a;
+font-style: normal;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 0.08em;
+white-space: normal;
+font-size: 13px;
+padding: 10px 18px;
+margin-top: 27.5px;
+}
+.center-p-pointer {
+  text-align:center;
+}
+@media (max-width: 760px) {
+  div.category-div {
+    width: 100%;
+    margin: 0 !important;
+    height: 200px;
+    }
+    div.row-section {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      display: block;
+    }
+}
 
 

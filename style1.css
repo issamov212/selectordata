@@ -586,6 +586,10 @@ font-size: 13px;
 padding: 10px 18px;
 margin-top: 27.5px;
 }
+.category-cta:hover {
+background:#fff;
+color: #eabdc0;
+}
 .center-p-pointer {
   text-align:center;
 }

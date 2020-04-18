@@ -5,9 +5,7 @@ text-align:center !important;
 .spr-container{
 border-color:rgba(0,0,0,0.1)!important;
 }
-ul.grid--uniform,grid--view-items{
-direction:rtl;
-}
+
 .spr-form-label+.spr-form-input {
     margin: 0;
     border-radius: 20px !important;

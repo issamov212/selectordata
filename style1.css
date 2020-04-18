@@ -544,6 +544,10 @@ div.row-section {
   display: flex;
 }
 
+.accessory{
+background-image: linear-gradient(rgba(0, 10, 82, 0.83) 0%, rgba(12, 48, 119, 0.76) 25%, rgba(0, 20, 35, 0.92) 100%), url(https://issamov212.github.io/selectordata/accessory.jpg);
+    background-position: center;
+background-size: cover;}
 .accessory:hover{
   background-image: linear-gradient(rgba(0, 10, 82, 0.83) 0%, rgba(0, 37, 112, 0.76) 25%, rgb(4, 49, 84) 100%), url(https://issamov212.github.io/selectordata/accessory.jpg);
     background-position: center;

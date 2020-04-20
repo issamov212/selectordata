@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Tajawal');
+.form_generater_form_div{
+direction:rtl!important;
+}
 .answer-prog-txt{
 text-align:center !important;
 } 

@@ -269,6 +269,7 @@ border-none:!important;}
      direction: rtl !important;
 }
  .mega-subtitle p {
+     direction:rtl;
      color: #E75397 !important;
 }
  .quotes-slider__text p, .quotes-slider__text cite {

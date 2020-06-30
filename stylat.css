@@ -2,9 +2,7 @@
 .site-header {
 border:none !important;
 }
-*{
-   font-family: 'Tajawal', sans-serif !important;
-}
+
 .fixedheader {
    position: fixed !important;
     z-index: 1 !important;

@@ -21,7 +21,7 @@ border:none !important;
    translate: .5s;
 }
 .roseicon {
-   color: #ff0054 !important;
+   color: #59cd90 !important;
    translate: .5s;
 }
 
@@ -59,14 +59,14 @@ border:none !important;
     float: left;
 }
 #proceed span {
-    color: #ff0054 !important;
+    color: #59cd90 !important;
 }
 
 #back, #proceed, #start_over {   
     box-sizing: border-box;
     font-family: Roboto;
     font-weight: bold;
-    color: #ff0054;
+    color: #59cd90;
     padding: 10px 16px 10px 16px;
     border: none;
     border-radius: 10px;
@@ -142,7 +142,7 @@ form h2, #result_wrapper h2 {
     border-radius: 15px;   
 }
 .activity_selector strong {
-    color: #ff0054;
+    color: #59cd90;
 }
 
 .activity_selector:hover {

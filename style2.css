@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal');
+.site-header {
+border:none !important;
+}
+*{
+   font-family: 'Tajawal', sans-serif !important;
+}
+.fixedheader {
+   position: fixed !important;
+    z-index: 1 !important;
+    translate: .5s;
+}
+.transparentback{
+   background: transparent !important;
+   translate: .5s;
+}
+.whitenoborder{
+   color: #fff !important;
+   translate: .5s;
+   border:none !important;
+   translate: .5s;
+}
+.roseicon {
+   color: #ff0054 !important;
+   translate: .5s;
+}
+
+.clear {
+    clear: both;
+}
+#main h1 {
+    font-family: Lato;
+    text-align: center;
+    color: #0b6078;
+    margin: 0 20px;
+    padding: 12px 0 3px 0;
+    border-radius: 0 0 40px 40px;
+    
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fde302+0,e6a000+100 */
+    background: #fde302; /* Old browsers */
+    background: -moz-linear-gradient(top,  #fde302 0%, #e6a000 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #fde302 0%,#e6a000 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #fde302 0%,#e6a000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fde302', endColorstr='#e6a000',GradientType=0 ); /* IE6-9 */
+    -webkit-box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.75);
+}
+
+/* Buttons Styles */
+
+#back {
+    margin: 0 0 15px 20px;
+    float: right;
+}
+
+#proceed, #start_over {
+    margin: 0 20px 20px 0;
+    float: left;
+}
+#proceed span {
+    color: #ff0054 !important;
+}
+
+#back, #proceed, #start_over {   
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-weight: bold;
+    color: #ff0054;
+    padding: 10px 16px 10px 16px;
+    border: none;
+    border-radius: 10px;
+   background: rgba(0,0,0,0.6);
+}
+
+#back:hover, #proceed:hover, #start_over:hover {
+    cursor: pointer;
+}
+
+#back:active, #proceed:active, #start_over:active {
+    color: black;
+    background: #085b7a; /* Old browsers */
+    background: -moz-linear-gradient(top, #085b7a 0%, #52afbd 28%, #99ffff 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #085b7a 0%,#52afbd 28%, #99ffff 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #085b7a 0%,#52afbd 28%, #99ffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#085b7a', endColorstr='#99ffff',GradientType=0 ); /* IE6-9 */
+}
+
+#start_over {
+    display: none;
+}
+
+/* Form Styles */
+
+#form02, #result_wrapper, #back {
+    display: none;
+}
+
+form h2, #result_wrapper h2 {
+    padding-left: 20px;
+}
+
+#result {
+    margin: 10px 10px;
+    padding: 10px;
+}
+
+/* First form selectors */
+
+.selector_wrapper {
+    padding-left: 50px;
+    background-color: lightblue;
+    color: black;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.selector_wrapper span {
+    display: inline-block;
+    width: 130px;
+}
+
+.selector_wrapper select {
+    width: auto;
+    min-width: 60px;
+    height: auto;
+    font-family: Merriweather;
+}
+
+/* Second and third form styles */
+
+.inner .activity_selector {
+    min-height: 60px;
+}
+
+.activity_selector {
+    box-sizing: border-box;
+    color: black;
+    background-color: rgba(0,0,0,.6);  
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 15px;   
+}
+.activity_selector strong {
+    color: #ff0054;
+}
+
+.activity_selector:hover {
+    background-color: rgba(0,0,0,0.75);
+    cursor: pointer;
+}
+
+/* Final Score */
+
+#score {
+    box-sizing: border-box;
+    text-align: center;
+    color: #fff;
+   
+    font-size: 1.2em;
+transform: translateY(30px);
+    border-radius: 15px;
+    
+    
+}
+
+html{
+overflow-x:hidden;
+}
+
+div.container-1 {
+    background-image: linear-gradient(to top, rgba(14, 1, 11, 0.7) 0%, rgba(13, 1, 17, 0.67) 100%), url(https://www.pexels.com/photo/321598/download/?search_query=diet&tracking_id=a31wpnrqamr);
+    background-position: bottom;
+    background-size: cover;
+   direction:rtl;
+    -webkit-box-shadow: 0px 0px 38px 16px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 0px 38px 16px rgba(0,0,0,0.35);
+    box-shadow: 0px 0px 38px 16px rgba(0,0,0,0.35);
+    width: 100%;
+    margin-left: 0%;
+    padding-right: 2%;
+    border-radius: 22px !important;
+    padding: 30px 20px 6px 12px;
+    margin-top: 10%;
+}

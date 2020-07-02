@@ -217,7 +217,7 @@ float:right;
      display:flex;
 }
 .answer-prog-name {
-color:#eabdc0;
+color:#59cd90;
  text-align:center;
 }
 .answer-col {
@@ -239,7 +239,7 @@ border-radius: 14px;
 text-align:center;cursor: pointer;width: 100%;margin-top: 20px;
 }
 .prog-span {
-background: #eabdc0;padding: 6px 12px;font-size: 12px;border-radius: 6px;color: #0a0a0a;text-align: center;
+background: #59cd90;padding: 6px 12px;font-size: 12px;border-radius: 6px;color: #0a0a0a;text-align: center;
 }
 #shopify-section-1586407393304 {
 padding-top: 0 !important;
@@ -253,7 +253,7 @@ width:100%;
 }
 .distance-training {
 color: #0a0a0a;
-    background: #eabdc0;
+    background: #59cd90;
     padding-right: 14px;
     padding-left: 14px;
     padding-top: 4px;
@@ -297,7 +297,7 @@ border-none:!important;}
      -webkit-appearance: none;
      -moz-appearance: none;
      appearance: none;
-     background: #eabdc0;
+     background: #59cd90;
      padding: .8em 2em;
      border: none;
      color: #0a0a0a;
@@ -337,7 +337,7 @@ border-none:!important;}
      padding-bottom: 13%;
 }
  h4.vip-plan{
-     color: #eabdc0;
+     color: #59cd90;
 }
  #vertlist {
      padding: 0 !important;
@@ -379,7 +379,7 @@ border-none:!important;}
      font-size: 12px;
 }
  plan-cta .basic-table{
-     border: 1px solid #eabdc0;
+     border: 1px solid #59cd90;
 }
  h4.plan-name {
      font-size: 16px;
@@ -396,7 +396,7 @@ border-none:!important;}
      min-height: 380px ;
      margin-top: 18px;
      margin-left: 5%;
-     border: 2px solid #eabdc0 !important;
+     border: 2px solid #59cd90 !important;
      border-radius: 5px;
      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25) !important;
      background-color: #fff;
@@ -436,7 +436,7 @@ border-none:!important;}
 }
  .home-choice {
      float: right;
-     background: #eabdc0;
+     background: #59cd90;
      padding: 6px 12px;
      border-radius: 6px;
      margin-right: 8px;
@@ -449,19 +449,19 @@ border-none:!important;}
      text-align: right !important;
 }
  #shopify-section-1586092288358 > div > div > div.feature-row__item.feature-row__text.feature-row__text--left > h2{
-     color: #eabdc0 !important;
+     color: #59cd90 !important;
 }
  .choices-headin, #shopify-section-1586092288358 > div > div > div.feature-row__item.feature-row__text.feature-row__text--left > h2, #shopify-section-1586092288358 > div > div > div.feature-row__item.feature-row__text.feature-row__text--left > div > p {
      direction: rtl !important;
 }
  .mega-subtitle p {
-     color: #eabdc0 !important;
+     color: #59cd90 !important;
 }
  .quotes-slider__text p, .quotes-slider__text cite {
      direction: rtl !important;
 }
  .btn--secondary {
-     border: !px solid #eabdc0 !important;
+     border: !px solid #59cd90 !important;
 }
  .h4 {
      text-align:right!important;
@@ -505,7 +505,7 @@ border-none:!important;}
      translate: .5s;
 }
  .roseicon {
-     color: #eabdc0 !important;
+     color: #59cd90 !important;
      translate: .5s;
 }
  .mega-title--large {
@@ -549,7 +549,7 @@ border-none:!important;}
      text-align: right;
      margin-right: 35%;
      margin-top: 12px;
-     color: #eabdc0;
+     color: #59cd90;
      font-size: 16px;
 }
  p.program-text{
@@ -573,7 +573,7 @@ border-none:!important;}
 }
  a.backlink{
      position: absolute;
-     color: #eabdc0 !important;
+     color: #59cd90 !important;
      font-family: 'Tajawal',sans-serif;
      text-decoration: none;
      font-size: 18px;
@@ -646,7 +646,7 @@ text-align:right;cursor: pointer;width: 100%;margin-top: 20px;margin-right:3%;
   text-align:center;
   }
 .prog-span {
-background: #eabdc0;padding: 6px 12px;font-size: 10px;border-radius: 6px;color: #0a0a0a;text-align: center;
+background: #59cd90;padding: 6px 12px;font-size: 10px;border-radius: 6px;color: #0a0a0a;text-align: center;
 }
   .selector-cta {
 text-align: center; width: 50%; margin-top: 20px; margin-right: 25%; float: right;  
@@ -691,7 +691,7 @@ text-align: center; width: 50%; margin-top: 20px; margin-right: 25%; float: righ
          display: inline-block;
          margin-right: 5%;
          margin-top: 12px;
-         color: #eabdc0;
+         color: #59cd90;
          font-size: 16px;
     }
      p.program-text{

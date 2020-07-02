@@ -714,4 +714,6 @@ text-align: center; width: 50%; margin-top: 20px; margin-right: 25%; float: righ
          display:unset;
     }
 }
- 
+.main-content {
+padding-top:0 !important;
+}

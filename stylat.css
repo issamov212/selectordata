@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Tajawal');
+* {
+font-family: 'Tajawal', sans-serif !important;
+}
 .site-header {
 border:none !important;
 }

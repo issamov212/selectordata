@@ -1,1 +1,1 @@
-document.querySelector("body").classList.add("sella");
+document.querySelector('body').style.display="none"
